@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>CASCADE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+
+    <header>
+      <h1>CASCADE</h1>
+      <div id="puzzle-meta">
+        <span id="puzzle-number"></span>
+        <span id="puzzle-name"></span>
+      </div>
+    </header>
+
+    <div id="board-wrap">
+      <div id="board"></div>
+    </div>
+
+    <div id="status">
+      <div class="stat">
+        <div class="stat-label">CLEARED</div>
+        <div id="cleared-count">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">PIECE</div>
+        <div id="piece-progress">0 / 0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">SCORE</div>
+        <div id="score-count">0</div>
+      </div>
+    </div>
+
+    <div id="tray-wrap">
+      <div id="tray"></div>
+    </div>
+
+    <div id="actions">
+      <button id="hint-btn">HINT <span class="cost-tag">−1 pt</span></button>
+      <button id="reset-btn">RESET</button>
+    </div>
+
+    <div id="end-panel" class="hidden">
+      <div id="end-result"></div>
+      <button id="share-btn">SHARE RESULT</button>
+      <div id="copied-msg" class="hidden">Copied to clipboard</div>
+      <button id="play-again-btn" class="hidden">PLAY AGAIN</button>
+    </div>
+
+  </div>
+
+  <script src="pieces.js"></script>
+  <script src="puzzles.js"></script>
+  <script src="cascade.js"></script>
+</body>
+</html>
