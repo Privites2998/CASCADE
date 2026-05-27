@@ -1,6 +1,6 @@
 const BOARD_SIZE = 8;
 const COLORS = ['c1', 'c2', 'c3', 'c4', 'c5'];
-const EPOCH = new Date('2026-05-25T00:00:00');
+const EPOCH = new Date('2026-06-09T00:00:00');
 const HINT_COST = 1;
 
 let puzzle = null;
