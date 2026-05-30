@@ -270,5 +270,141 @@ const PUZZLES = [
     ],
     queue: ["O", "1x4"],
     optimalScore: 3
+  },
+  {
+    id: 17,
+    name: "Corner Tap",
+    difficulty: 1,
+    startingBoard: [
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "11111011"
+    ],
+    queue: ["1x1"],
+    optimalScore: 1
+  },
+  {
+    id: 18,
+    name: "Double Decker",
+    difficulty: 1,
+    startingBoard: [
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "11111110",
+      "11111110"
+    ],
+    queue: ["1x1", "1x1"],
+    optimalScore: 2
+  },
+  {
+    id: 19,
+    name: "Long Bar",
+    difficulty: 1,
+    startingBoard: [
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "11110000"
+    ],
+    queue: ["1x4"],
+    optimalScore: 1
+  },
+  {
+    id: 20,
+    name: "Tower",
+    difficulty: 2,
+    startingBoard: [
+      "10000000",
+      "10000000",
+      "10000000",
+      "10000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000"
+    ],
+    queue: ["I"],
+    optimalScore: 1
+  },
+  {
+    id: 21,
+    name: "Square Deal",
+    difficulty: 2,
+    startingBoard: [
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "11111100",
+      "11111100"
+    ],
+    queue: ["O"],
+    optimalScore: 2
+  },
+  {
+    id: 22,
+    name: "Step Up",
+    difficulty: 2,
+    startingBoard: [
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "11111110",
+      "11111100"
+    ],
+    queue: ["1x2", "1x1"],
+    optimalScore: 2
+  },
+  {
+    id: 23,
+    name: "T-Junction",
+    difficulty: 3,
+    startingBoard: [
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "00000000",
+      "11100011",
+      "11110111"
+    ],
+    queue: ["T"],
+    optimalScore: 2
+  },
+  {
+    id: 24,
+    name: "L-Bracket",
+    difficulty: 3,
+    startingBoard: [
+      "10000000",
+      "10000000",
+      "10000000",
+      "10000000",
+      "10000000",
+      "00000000",
+      "00000000",
+      "00111111"
+    ],
+    queue: ["L"],
+    optimalScore: 2
   }
 ];
